@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css">
+<title>Expense Tracker</title>
+
+</head>
+<body>
+
+<h1>Expense Tracker</h1>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-label">Balance</div>
+    <div class="card-amount" id="balance">₹0.00</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Income</div>
+    <div class="card-amount green" id="total-income">₹0.00</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Expenses</div>
+    <div class="card-amount red" id="total-expense">₹0.00</div>
+  </div>
+</div>
+
+<div class="form-box">
+  <h2>Add Transaction</h2>
+  <div class="form-row">
+    <div>
+      <label>Description</label>
+      <input type="text" id="t-name" placeholder="e.g. Lunch" />
+    </div>
+    <div>
+      <label>Amount (₹)</label>
+      <input type="number" id="t-amount" placeholder="e.g. 60" />
+    </div>
+    <div>
+      <label>Type</label>
+      <select id="t-type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+    </div>
+    <div>
+      <label>&nbsp;</label>
+      <button id="add-btn">Add</button>
+    </div>
+  </div>
+  <div class="error" id="error-msg">Please enter a description and a valid amount.</div>
+</div>
+
+<div class="list-box">
+  <div class="list-header">Transactions</div>
+  <div id="transaction-list">
+    <div class="empty">No transactions yet. Add one above.</div>
+  </div>
+</div>
+
+
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>
