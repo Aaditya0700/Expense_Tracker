@@ -22,16 +22,6 @@ A simple Expense Tracker built using HTML, CSS, and JavaScript. It helps users m
 2. Open `index.html` in your web browser.
 3. Start adding your transactions.
 
-## 📸 Screenshot
-
-Add a screenshot of the project here.
-
-```md
-<img width="1895" height="864" alt="image" src="https://github.com/user-attachments/assets/a456f3d1-991d-4697-aa61-f1d72291a3c5" />
-
-![Expense Tracker](screenshot.png)
-```
-
 ## 📚 What I Learned
 
 * DOM Manipulation
