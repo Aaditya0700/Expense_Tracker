@@ -1,6 +1,6 @@
 # 💰 Expense Tracker
 
-A simple Expense Tracker built using HTML, CSS, and JavaScript. It helps users manage their income and expenses by tracking transactions and calculating the current balance.
+A simple Expense Tracker built using HTML, CSS, and JavaScript. It helps users track income and expenses, view their balance, and manage transactions.
 
 ## 🚀 Features
 
@@ -12,22 +12,31 @@ A simple Expense Tracker built using HTML, CSS, and JavaScript. It helps users m
 
 ## 🛠️ Technologies Used
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 
-## 📂 How to Run
+## 📂 Project Structure
 
-1. Download or clone the repository.
-2. Open `index.html` in your web browser.
-3. Start adding your transactions.
+```text
+expense-tracker/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## ⚙️ How to Run
+
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
 
 ## 📚 What I Learned
 
 * DOM Manipulation
 * Event Handling
 * Form Validation
-* JavaScript Arrays and Functions
+* JavaScript Arrays and Objects
 * Responsive Web Design
 
 ## 👨‍💻 Author
