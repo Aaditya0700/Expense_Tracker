@@ -33,5 +33,3 @@ A simple Expense Tracker built using HTML, CSS, and JavaScript. It helps users m
 ## 👨‍💻 Author
 
 Aaditya Dubey
-
-GitHub: https://github.com/your-github-username
