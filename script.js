@@ -9,10 +9,17 @@
     var error  = document.getElementById('error-msg');
 
     // Validate
-    if (name === '' || isNaN(amount) || amount <= 0) {
-      error.style.display = 'block';
-      return;
-    }
+    if (name === '') {
+  error.textContent = 'Please enter a transaction name.';
+  error.style.display = 'block';
+  return;
+}
+
+if (isNaN(amount) || amount <= 0) {
+  error.textContent = 'Please enter a valid amount greater than 0.';
+  error.style.display = 'block';
+  return;
+}
 
     error.style.display = 'none';
 
