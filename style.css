@@ -319,6 +319,15 @@ select:focus {
     box-shadow: none;
 }
 
+/* Improve transaction spacing */
+.transaction {
+    min-height: 65px;
+}
+
+.t-name {
+    font-weight: 500;
+}
+
 .t-delete {
     border-radius: 3px;
     transition: all 0.2s ease;
