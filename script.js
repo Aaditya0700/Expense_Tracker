@@ -19,7 +19,7 @@ if (isNaN(amount) || amount <= 0) {
   error.textContent = 'Please enter a valid amount greater than 0.';
   error.style.display = 'block';
   return;
-}
+} 
 
     error.style.display = 'none';
 
@@ -34,9 +34,15 @@ if (isNaN(amount) || amount <= 0) {
   });
 
   function deleteTransaction(i) {
-    transactions.splice(i, 1);
-    render();
+  var confirmed = confirm('Are you sure you want to delete this transaction?');
+
+  if (!confirmed) {
+    return;
   }
+
+  transactions.splice(i, 1);
+  render();
+}
 
   function render() {
     var list = document.getElementById('transaction-list');
