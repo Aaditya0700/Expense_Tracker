@@ -327,3 +327,9 @@ select:focus {
 .t-delete:hover {
     transform: scale(1.05);
 }
+
+/* Improve page spacing */
+.form-box,
+.list-box {
+    border-radius: 4px;
+}
