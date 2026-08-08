@@ -92,7 +92,30 @@ select:focus {
         color: #eb5757;
         border-color: rgba(235, 87, 87, 0.25);
     }
+    .empty-icon {
+    width: 42px;
+    height: 42px;
+    margin: 0 auto 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(201, 150, 63, 0.3);
+    border-radius: 50%;
+    color: #C9963F;
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+}
 
+.empty-title {
+    color: #EDE9DF;
+    font-size: 0.95rem;
+    margin-bottom: 0.35rem;
+}
+
+.empty-text {
+    color: rgba(237, 233, 223, 0.35);
+    font-size: 0.8rem;
+}
   .card-label {
     font-size: 0.7rem;
     letter-spacing: 0.12em;

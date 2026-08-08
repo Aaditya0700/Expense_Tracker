@@ -49,7 +49,13 @@ if (isNaN(amount) || amount <= 0) {
 
     // Update list
     if (transactions.length === 0) {
-      list.innerHTML = '<div class="empty">No transactions yet. Add one above.</div>';
+          list.innerHTML = `
+      <div class="empty">
+        <div class="empty-icon">₹</div>
+        <div class="empty-title">No transactions yet</div>
+        <div class="empty-text">Add your first income or expense above.</div>
+      </div>
+    `;
     } else {
       list.innerHTML = '';
       for (var i = 0; i < transactions.length; i++) {
