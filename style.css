@@ -48,7 +48,29 @@
 .transaction {
     transition: background 0.2s ease;
 }
+/* Form interaction improvements */
+input,
+select {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
 
+input:focus,
+select:focus {
+    border-color: #C9963F;
+    box-shadow: 0 0 0 2px rgba(201, 150, 63, 0.12);
+}
+
+#add-btn {
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+#add-btn:hover {
+    background: #EDE9DF;
+}
+
+#add-btn:active {
+    transform: scale(0.98);
+}
 .transaction:hover {
     background: rgba(201, 150, 63, 0.05);
 }
