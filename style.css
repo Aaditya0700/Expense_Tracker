@@ -328,6 +328,12 @@ select:focus {
     font-weight: 500;
 }
 
+/* Improve delete button */
+.t-delete {
+    min-width: 32px;
+    min-height: 30px;
+}
+
 .t-delete {
     border-radius: 3px;
     transition: all 0.2s ease;
