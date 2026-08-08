@@ -51,6 +51,13 @@ select {
     border-color: rgba(201, 150, 63, 0.4);
 }
 
+/* Final UI polish */
+.card,
+.form-box,
+.list-box {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
 .transaction {
     transition: background 0.2s ease;
 }
