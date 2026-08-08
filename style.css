@@ -22,6 +22,10 @@
     letter-spacing: 0.02em;
   }
 
+  input,
+select {
+    border-radius: 3px;
+}
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
