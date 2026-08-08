@@ -75,6 +75,24 @@ select:focus {
     background: rgba(201, 150, 63, 0.05);
 }
 
+    .t-type {
+        display: inline-block;
+        padding: 0.2rem 0.5rem;
+        border: 1px solid rgba(237, 233, 223, 0.1);
+        border-radius: 3px;
+        margin-top: 0.35rem;
+    }
+
+    .transaction:has(.t-amount.income) .t-type {
+        color: #6fcf97;
+        border-color: rgba(111, 207, 151, 0.25);
+    }
+
+    .transaction:has(.t-amount.expense) .t-type {
+        color: #eb5757;
+        border-color: rgba(235, 87, 87, 0.25);
+    }
+
   .card-label {
     font-size: 0.7rem;
     letter-spacing: 0.12em;
