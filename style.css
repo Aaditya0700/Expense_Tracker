@@ -35,6 +35,23 @@
     text-align: center;
     border-left: 3px solid #C9963F;
   }
+ 
+.card {
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(201, 150, 63, 0.4);
+}
+
+.transaction {
+    transition: background 0.2s ease;
+}
+
+.transaction:hover {
+    background: rgba(201, 150, 63, 0.05);
+}
 
   .card-label {
     font-size: 0.7rem;
