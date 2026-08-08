@@ -302,3 +302,28 @@ select:focus {
         font-size: 0.85rem;
     }
 }
+
+/* Button interaction improvements */
+#add-btn {
+    border-radius: 3px;
+    box-shadow: 0 2px 8px rgba(201, 150, 63, 0.12);
+}
+
+#add-btn:hover {
+    background: #EDE9DF;
+    box-shadow: 0 4px 12px rgba(201, 150, 63, 0.18);
+}
+
+#add-btn:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+.t-delete {
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.t-delete:hover {
+    transform: scale(1.05);
+}
