@@ -44,6 +44,7 @@ select {
  
 .card {
     transition: transform 0.2s ease, border-color 0.2s ease;
+    border-radius: 4px;
 }
 
 .card:hover {
